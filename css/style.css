@@ -1,16 +1,26 @@
+body{
+  font-family: "Inter", sans-serif;
+
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .navbar {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  margin: 10px 40px;
+  justify-content: space-around;
   flex-wrap: wrap;
+  gap: 30px;
 }
 
 .navbar-right {
   justify-content: space-between;
   display: flex;
   gap: 30px;
+  flex-wrap: wrap;
 }
 
 .navbar-search {
@@ -110,6 +120,8 @@
 
 .footer-right{
     gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 p{
